@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_launcher_icons: "^0.7.5"
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -48,6 +49,11 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+
+flutter_icons:
+  ios: true
+  android: "launcher_icon"
+  image_path: "assets/launcher/envelope.png"
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
